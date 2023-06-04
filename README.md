@@ -30,10 +30,8 @@
 1. 克隆项目到本地
 2. 创建conda虚拟环境
 3. 安装依赖
-4. 运行项目
-```
-python obj_tkinterapp.py
-```
+4. 运行项目 `python obj_tkinterapp.py`
+
 
 ## 注意
 - 要解压`video_imgs.zip`
