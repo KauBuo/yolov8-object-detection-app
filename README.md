@@ -1,37 +1,52 @@
+```
 # yolov8目标检测APP
 
-#### 介绍
+
+## 项目描述
+
 本项目是一个基于Tkinter和OpenCV的目标检测应用程序，实现了摄像头和视频文件的实时目标检测。通过YOLOv8模型进行目标检测，支持定位、分割和姿势三种模型类型，以及不同模型大小。
 
-#### 软件架构
-软件架构说明
+## 项目运行效果截图
 
+[TODO: 此处上传效果截图]
 
-#### 安装教程
+## 功能
+- 支持摄像头和视频文件的实时目标检测
+- 支持定位、分割和姿势三种模型类型
+- 支持不同模型大小
+- 支持在视频上显示边界框和遮罩
+- 支持暂停、播放和重新播放视频文件
+- 支持目标检测的开始/停止
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## 依赖
 
-#### 使用说明
+- Python 3
+- OpenCV
+- Tkinter
+- ultralytics YOLO
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## 使用
 
-#### 参与贡献
+1. 克隆项目到本地
+2. 创建conda虚拟环境
+3. 安装依赖
+4. 运行项目
+```
+python obj_tkinterapp.py
+```
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+## 注意
 
+- 确保摄像头可用且没有被其他应用程序占用
+- 确保视频文件格式正确且路径合法
+- 在选择模型类型和大小时，确保模型文件存在于项目目录的“weights”文件夹下
+- 上传Jupyter Notebook：XXX.ipynb
 
-#### 特技
+## 个人信息
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+[TODO: 此处填写个人信息]
+- 学号: XXX
+- 年级: 2020
+- 专业: 智能科学与技术
+- 班级: XXX 班
+```
